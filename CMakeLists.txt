@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 2.8)
+project(TEST)
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+include_directories( include )
+AUX_SOURCE_DIRECTORY(src DIR_SRCS)
+SET(TEST_MATH ${DIR_SRCS})
+add_library(ArmorDescriptor SHARED src/ArmorDescriptor.cpp src/NumberMatch.cpp)
+add_executable( TEST ${TEST_MATH} )
+target_link_libraries( TEST ${OpenCV_LIBS})
+target_link_libraries( TEST ArmorDescriptor)
+

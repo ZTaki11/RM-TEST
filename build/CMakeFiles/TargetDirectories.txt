@@ -1,0 +1,4 @@
+/home/zcy/桌面/Final TEST/build/CMakeFiles/edit_cache.dir
+/home/zcy/桌面/Final TEST/build/CMakeFiles/ArmorDescriptor.dir
+/home/zcy/桌面/Final TEST/build/CMakeFiles/rebuild_cache.dir
+/home/zcy/桌面/Final TEST/build/CMakeFiles/TEST.dir

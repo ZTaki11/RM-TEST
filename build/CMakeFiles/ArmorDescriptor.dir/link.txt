@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libArmorDescriptor.so -o libArmorDescriptor.so CMakeFiles/ArmorDescriptor.dir/src/ArmorDescriptor.cpp.o CMakeFiles/ArmorDescriptor.dir/src/NumberMatch.cpp.o 
